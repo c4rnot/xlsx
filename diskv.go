@@ -1258,7 +1258,7 @@ func (cs *DiskVCellStore) WriteRow(r *Row) error {
 }
 
 func cellTransform(s string) []string {
-	return strings.Split(s, ":")
+	return strings.Split(s, "§")
 }
 
 func writeRichTextColor(buf *bytes.Buffer, c *RichTextColor) error {
