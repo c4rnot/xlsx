@@ -1,4 +1,4 @@
-module github.com/tealeg/xlsx/v3
+module github.com/c4rnot/xlsx/v3
 
 go 1.15
 
